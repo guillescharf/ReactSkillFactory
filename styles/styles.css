@@ -1,0 +1,33 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+ .mainContainer{
+      display: flex ;    
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+ }
+ .dataContainer{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;   
+   width: 20vw;
+   min-height: 20vh;
+   border: 1px solid blue;
+   margin: 10px;
+   padding: 5px;
+ }
+ .true{
+   box-shadow: 0 5px 10px 0 rgb(50, 211, 90);
+ }
+ .false{
+   box-shadow: 0 5px 10px 0 rgb(233, 51, 66);
+ }
+ .dataItem{
+      text-align: center;
+      width: 100%;
+      height: 100%;
+
+ }
